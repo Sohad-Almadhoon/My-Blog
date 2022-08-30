@@ -15,6 +15,7 @@ const createBlog = createSlice({
     },
     getcard(state, action) {
       state.collectCard.push(action.payload);
+         localStorage.setItem("blog", JSON.stringify(({ blog: state })));
     },
     removecard(state, action) {
       state.collectCard = state.collectCard
@@ -24,6 +25,7 @@ const createBlog = createSlice({
         .map((item, index) => {
           return { ...item, counter: index + 1 };
         });
+      localStorage.setItem("blog", JSON.stringify(({ blog: state })));
     },
   },
 });
