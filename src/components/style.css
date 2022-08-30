@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;900&family=Montserrat:wght@300;400;500&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;1,600&family=Poppins:wght@400;500;600;700;800;900&family=Square+Peg&display=swap");
+* {
+  font-family: "Noto Serif", serif;
+}
+body {
+  margin: 0;
+  background-color: #e091b8;
+  background-image: url("https://www.transparenttextures.com/patterns/classy-fabric.png");
+}
+.nav {
+  border-bottom: 1px #ccc solid;
+  width: 80%;
+  margin: auto;
+  color: #fff;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+li {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.log-out button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #99154e;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.log-out button:hover {
+  color: #fff;
+  background-color: #b9005b;
+}
+.nav a:hover {
+  cursor: pointer;
+  color: #99154e;
+}
+
+/* Admin Board */
+.admin-board {
+  max-width: 400px;
+  margin: 60px auto 0;
+  background-color: #fff;
+  padding: 30px 10px 20px;
+  border-radius: 10px;
+  box-shadow: 2px -1px 10px #777;
+}
+.admin-board input {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  outline: 0;
+}
+.admin-board label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #99154e;
+}
+.admin-board textarea {
+  margin: auto;
+  display: block;
+  width: 95%;
+  height: 100px;
+  resize: none;
+  outline: 0;
+}
+.create {
+  padding: 10px;
+  margin: 10px auto 0;
+  display: block;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+  background-color: #99154e;
+  color: #fff;
+}
+.create:hover {
+  background-color: #b9005b;
+}
+.profile {
+  padding: 0 0 20px;
+  margin: 0;
+}
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #99154e;
+}
+.footer{
+  position: fixed;
+  bottom: 10px;
+left: 40%;
+color: #fff;
+}
+.footer span{
+  color: #99154e;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
